@@ -1,0 +1,31 @@
+.my-form-control {
+    width: 500px;
+}
+
+.my-form-control input,
+.my-form-control textarea {
+    background: #fcfcfc;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.my-form-control textarea {
+    height: 200px;
+    resize: none;
+}
+
+.my-form-control .btn {
+    margin-left: 0;
+    margin-top: 15px;
+    background: #ff5644;
+}
+
+.my-form-control .error {
+    color: #ff5644;
+    font-weight: 600;
+    margin-top: 10px;
+}
